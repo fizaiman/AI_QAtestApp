@@ -2,7 +2,7 @@ const http = require('http');
 const https = require('https');
 
 const PORT = 3001;
-const API_KEY = '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';
+const API_KEY = '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';
 const MODEL = 'openai/gpt-oss-120b:free';
 
 const server = http.createServer((req, res) => {
